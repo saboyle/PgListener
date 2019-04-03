@@ -5,7 +5,7 @@ Exploratory WPF application to listen to a given postgres server notification ch
 Application uses a dedicated thread to connect and listen to Postgres and updates a WPF Listbox
 each time a notification is received.
 
-![](./images/listener.png)
+![](./PgListener/images/listener.png)
 
 ## Notes
 
