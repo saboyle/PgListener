@@ -6,3 +6,15 @@ Application uses a dedicated thread to connect and listen to Postgres and update
 each time a notification is received.
 
 ![](./images/listener.png)
+
+## Notes
+
+The project has hardcoded values for:
+
+* Postgres Host
+* Postgres Port
+* Postgres Username / Password
+* Postgres Database
+* Postgres Notification channel [fixtures]
+
+It's meant to demonstrate how the notifications can be received and displayed onto a WPF Gui.
